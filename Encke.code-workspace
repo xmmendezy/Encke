@@ -1,0 +1,27 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "python.pythonPath": "~/.cache/pypoetry/virtualenvs/encke-r5L8H4G6-py3.8/bin/python",
+        "python.linting.pylintEnabled": true,
+        "python.linting.enabled": true,
+        "python.formatting.provider": "autopep8",
+        "python.linting.pylintArgs": [
+            "--load-plugins=pylint_django"
+        ],
+        "python.formatting.autopep8Args": [
+            "--max-line-length=250"
+        ]
+    },
+    "extensions": {
+        "recommendations": [
+            "hookyqr.beautify",
+            "editorconfig.editorconfig",
+            "ms-python.python",
+            "thebarkman.vscode-djaneiro"
+        ]
+    }
+}

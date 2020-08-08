@@ -1,0 +1,33 @@
+{
+    "is_debug": true,
+    "secret_key": "'&*)!9#^d#u_tsx0bqej*8cs!g-o#fh^(td2i=!^&fd3vx47dei'",
+    "allowed_host": [
+        "127.0.0.1",
+        "0.0.0.0"
+    ],
+    "apps_dependencies": [],
+    "apps_main": [],
+    "databases": {
+        "default": {
+            "ENGINE": "django.db.backends.sqlite3",
+            "NAME": "db.sqlite3"
+        }
+    },
+    "templates_dir": "templates",
+    "lang": {
+        "LANGUAGE_CODE": "en-us",
+        "TIME_ZONE": "UTC",
+        "USE_I18N": true,
+        "USE_L10N": true,
+        "USE_TZ": true
+    },
+    "jwt_auth": {
+        "JWT_EXPIRATION_DELTA": {
+            "days": 15
+        },
+        "JWT_ALLOW_REFRESH": true,
+        "JWT_REFRESH_EXPIRATION_DELTA": {
+            "days": 7
+        }
+    }
+}
